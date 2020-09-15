@@ -3,7 +3,7 @@
   "display": "standalone",
   "name": "WebShare API Demo",
   "orientation": "portrait",
-  "short_name": "PWA",
+  "short_name": "WebShare API Demo",
   "theme_color": "#000000",
   "background_color": "#000000",
   "scope": "/WebShareApiDemo/",
