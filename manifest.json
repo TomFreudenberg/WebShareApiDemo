@@ -6,7 +6,7 @@
   "short_name": "PWA",
   "theme_color": "#000000",
   "background_color": "#000000",
-  "scope": "/",
+  "scope": "/WebShareApiDemo/",
   "icons": [
     {
      "src": "/images/ws_48x48.png",
@@ -34,5 +34,5 @@
      "type": "image/png"
     }
   ],
-  "start_url": "/index.html"
+  "start_url": "/WebShareApiDemo/index.html"
 }
