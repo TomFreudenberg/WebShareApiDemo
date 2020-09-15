@@ -27,3 +27,12 @@ shareButton.addEventListener('click', event => {
 closeButton.addEventListener('click', event => {
   shareDialog.classList.remove('is-open');
 });
+
+// test IOS device
+let isIOS = (/iPad|iPhone|iPod/.test(navigator.platform) ||
+            (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) &&
+            !window.MSStream
+
+if (!isIOS) {
+  document.querySelector('#non-ios').classList.add('hidden');
+}
