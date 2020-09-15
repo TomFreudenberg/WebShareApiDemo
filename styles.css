@@ -12,6 +12,10 @@ body {
   font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;
 }
 
+.headline {
+  margin-top: 3em;
+}
+
 .hidden {
   display: none;
 }
