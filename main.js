@@ -33,6 +33,6 @@ let isIOS = (/iPad|iPhone|iPod/.test(navigator.platform) ||
             (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) &&
             !window.MSStream
 
-if (!isIOS) {
+if (isIOS) {
   document.querySelector('#non-ios').classList.add('hidden');
 }
